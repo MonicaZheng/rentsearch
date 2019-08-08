@@ -63,7 +63,7 @@ trend_layout = html.Div([
 def update_graph(value):
     df2b = quandl.get(
         'ZILLOW/Z'+str(value)+'_MRP2B',
-        authtoken="TgSaHF_YoDbd65fYqWkU"
+        authtoken="?"
         ).reset_index()
     try:
         df1b = quandl.get(
