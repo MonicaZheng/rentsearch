@@ -1,3 +1,3 @@
 # rentsearch
-web app for housr rent search in US (www.rentsearch.info)
+web app for housing rent search in US (www.rentsearch.info)
 
