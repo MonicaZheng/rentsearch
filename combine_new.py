@@ -68,7 +68,7 @@ def update_graph(value):
     try:
         df1b = quandl.get(
         'ZILLOW/Z'+str(value)+'_MRP1B',
-        authtoken="TgSaHF_YoDbd65fYqWkU"
+        authtoken=" "
         ).reset_index()
         b1={'type': 'scatter', 'mode': 'lines','x': df1b['Date'],'y': df1b['Value'], 'name': 'One Bedroom'}
         b2={'type': 'scatter', 'mode': 'lines','x': df2b['Date'],'y': df2b['Value'], 'name': 'Two Bedroom'}
@@ -97,7 +97,7 @@ map_one_layout = html.Div([
         }],
         'layout': {
             'mapbox': {
-                'accesstoken': 'pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2ozcGI1MTZ3MDBpcTJ3cXR4b3owdDQwaCJ9.8jpMunbKjdq1anXwU5gxIw',
+                'accesstoken': ,
             	'center': {
             	'lat': 38.665788,
             	'lon': -90.32224,},
@@ -148,7 +148,7 @@ map_two_layout = html.Div([
         }],
         'layout': {
             'mapbox': {
-                'accesstoken': 'pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2ozcGI1MTZ3MDBpcTJ3cXR4b3owdDQwaCJ9.8jpMunbKjdq1anXwU5gxIw',
+                'accesstoken': '.8jpMunbKjdq1anXwU5gxIw',
             	'center': {
             	'lat': 38.665788,
             	'lon': -90.32224,},
